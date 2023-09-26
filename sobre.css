@@ -1,0 +1,109 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #002E46
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*cabeçalho*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.about {
+
+    text-align: left;
+    padding: 60px 0;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.about p {
+    font-size: 20px;
+    margin-bottom: 352px;
+    color: #fff;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Estilos específicos para telas menores */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    header {
+        padding: 5px 0;
+
+    }
+
+    nav ul {
+        padding: 0;
+
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about h1 {
+        font-size: 24px;
+
+    }
+
+    .about p {
+        font-size: 16px;
+        margin-bottom: 20px;
+
+    }
+
+}
